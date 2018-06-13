@@ -1,12 +1,22 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: About
+    url: /about/
+    description: "Hoveeering"
+    excerpt:  "About me and this www"
+    image: 
+
+  - title: Blog
+    url: /blog/
+    excerpt:  "My writings"
+    image: 
+
+  - title: Portfolio
+    url: /portfolio/
+    excerpt:  "Overview of projects"
+    image: 
+
+  - title: Contact
+    url: /contact/
+    excerpt:  "Overview of projects"
+    image: 
