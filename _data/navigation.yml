@@ -15,8 +15,3 @@ main:
     url: /portfolio/
     excerpt:  "Overview of projects"
     image: 
-
-  - title: Contact
-    url: /contact/
-    excerpt:  "Overview of projects"
-    image: 
