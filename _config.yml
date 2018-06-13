@@ -102,7 +102,7 @@ analytics:
 author:
   name             : "Jan Krepl"
   avatar           : "/assets/images/blank_avatar.jpg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : ":)"
   location         : "Zurich, Switzerland"
   email            : "kjan@official@gmail.com"
   uri              :
