@@ -48,7 +48,7 @@ The implementation is readily available in scikit-learn under `ensemble.RandomTr
 *  `n_estimators`  --- number of trees
 *  `max_leaf_nodes` --- maximum leaf nodes per tree (the actual number can be lower)
 
-These two parameters allows us to control the dimensionality of transformed features. The dimension will be at most `n_estimators`  *  `max_leaf_nodes`.
+These two parameters allow us to control the dimensionality of transformed features. The dimension will be at most `n_estimators`  *  `max_leaf_nodes`.
 
 
 ### Stacking Estimator
