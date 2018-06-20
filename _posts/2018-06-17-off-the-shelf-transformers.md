@@ -54,7 +54,7 @@ These two parameters allow us to control the dimensionality of transformed featu
 ### Stacking Estimator
 Ensemble learning is a set of broadly used techniques that enable combining different models into one model. The most common techiqes are bagging and boosting. However, let us focus on their evil twin---stacking. The goal of Stacking Estimator (SE) is to create meta feautures from the original ones. Firstly, an estimator is picked that uses original features as inputs and outputs class probabilities (for classifiers) or predictions (for regressors). Applying the estimator to every sample, we can think of the outputs as additional features and combine it with the original feature vector through horizontal stacking. This process can be repeated and different estimators added (input is always the original features). Naturally, one can even nest this process (input is the original features together with output of all previous estimators). 
 
-See below a possible mental picture you can assign to stacking in your head (or maybe just see some more elaborate  schemes  on www provided in the references :panda_face:).
+See below a possible mental picture you can assign to stacking in your head (or maybe just see some more elaborate diagrams on www provided in the references :panda_face:).
 
 ![stacking_estimator]({{ "/assets/images/feature_transformers/stacking_estimator.png" | absolute_url }})
 
