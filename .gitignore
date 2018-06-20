@@ -1,6 +1,7 @@
 *.gem
 *.sublime-project
 *.sublime-workspace
+*.sketch
 .bundle
 .DS_Store
 .jekyll-metadata
