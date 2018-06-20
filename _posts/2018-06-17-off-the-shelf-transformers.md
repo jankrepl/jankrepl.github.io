@@ -24,7 +24,7 @@ Recently, I have been working with automated hyperparameter search packages---na
 
 ## What is a transformer anyway?
 Following the scikit-learn API, we can define a transformer as any subclass of  `base.BaseEstimator` that implements the `fit` and `transform` methods.
-Naturally, there are dozens of already implemented transfomers that are nicely documented [in the official docs](http://scikit-learn.org/stable/data_transforms.html). Their real power, however, becomes evident when using Pipelines. Wait, what? A Pipeline (`pipeline.Pipeline`) is a sequence of transformers that usually ends with a classifier/regressor. It enables the user to logically connect the preprocessing and the machine learning part of the task, avoid leaking from train to test set and (most importantly) finding optimal hyperparameters over all steps :astonished: :astonished: :astonished:.
+Naturally, there are dozens of already implemented transfomers that are nicely documented [in the official docs](http://scikit-learn.org/stable/data_transforms.html). Their real power, however, becomes evident when using Pipelines. Wait, what? A Pipeline (`pipeline.Pipeline`) is a sequence of transformers that usually ends with a classifier/regressor. It enables the user to logically connect the preprocessing and the machine learning part of the task, avoid leaking information from train to test set and (most importantly) finding optimal hyperparameters over all steps :astonished: :astonished: :astonished:.
 
 
 ## Old Friends
