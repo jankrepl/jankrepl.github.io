@@ -96,7 +96,7 @@ Virtually any linear model can be used to obtain `coef_` but preferably a regula
 The RFE has these three important hyperparameters: 
 * `estimator`:  estimator containing either  `coef_` or `feature_importances_` 
 * `n_features_to_select`:  final number/percentage of features we want to arrive at
-* `step`: number/percentage of features to remove at each step
+* `step`: number/percentage of features to remove at each iteration
 
 See below an example where `n_features` =  16, `step` = 1 and `n_features_to_select` =  11.
 
