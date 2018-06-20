@@ -58,7 +58,7 @@ See below a possible mental picture you can assign to stacking in your head (or 
 
 ![stacking_estimator]({{ "/assets/images/feature_transformers/stacking_estimator.png" | absolute_url }})
 
-Since Stacking Estimator is not a part of scikit-learn, one needs to look somewhere else [mlxtend](https://github.com/rasbt/mlxtend) or  create this transformer himself.  A minimal version is shown below.
+Since Stacking Estimator is not a part of scikit-learn, one needs to look somewhere else ([mlxtend](https://github.com/rasbt/mlxtend)) or create this transformer himself. A minimal version is shown below.
 
 
 ```python
