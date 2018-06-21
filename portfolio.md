@@ -22,6 +22,12 @@ permalink: /portfolio/
 	</a>
 </ul>
 
+<ul>
+	<a href="https://medium.com/@kjan.official">
+	  <i class="fab fa-medium"></i> Medium
+	</a>
+</ul>
+
 
 <ul>
 	<a href="https://www.kaggle.com/jankrepl">
