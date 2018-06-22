@@ -43,7 +43,7 @@ Decision trees/random forests are notorious for being able to capture complicate
 
 ![random_forest_embedding]({{ "/assets/images/feature_transformers/random_forest_embedding.png" | absolute_url }})
 
-The implementation is readily available in scikit-learn under `ensemble.RandomTreesEmbedding`. Some of the more relevant parameters are: 
+RTE is an unsupervised algorithm that achieves the above by generating totally random trees! The implementation is readily available in scikit-learn under `ensemble.RandomTreesEmbedding`. Some of the more relevant parameters are: 
 *  `n_estimators`  --- number of trees
 *  `max_leaf_nodes` --- maximum leaf nodes per tree (the actual number can be lower)
 
