@@ -4,4 +4,4 @@ permalink: /about/
 author_profile: true
 ---
 
-I am a Python developer mainly focused on machine learning.
+I am a <i class="fab fa-python"></i> Python developer mainly focused on machine learning.
