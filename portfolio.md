@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: single
 permalink: /portfolio/
+author_profile: true
 ---
 
 

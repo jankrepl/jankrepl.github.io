@@ -101,7 +101,7 @@ analytics:
 # Site Author
 author:
   name             : "Jan Krepl"
-  avatar           : "/assets/images/blank_avatar.jpg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/face_1.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : ":)"
   location         : "Zurich, Switzerland"
   email            : "kjan@official@gmail.com"
