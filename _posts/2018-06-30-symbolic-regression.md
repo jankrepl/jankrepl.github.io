@@ -99,7 +99,7 @@ It implements two major algorithms: regression and transformation. With regressi
 Once fitted, one can inspect the best solution via the attribute `_program`. Note that there are multiple hyperparameters that enable customization of all major parts of the evolution. I encourage you to read the official documentation and get familiar with some of them especially if you want to prevent things like overfitting from happening or if you simply look for speedups.
 
 # Facebook metrics data set
-To illustrate how gplearn works in practise let us take a toy data set called Facebook metrics ([link](http://archive.ics.uci.edu/ml/datasets/Facebook+metrics)) from the UCI Machine Learning Repository. It has been created based on an undisclosed cosmetics brand Facebook page. See below the attributes of interest.
+To illustrate how gplearn works in practice let us take a toy data set called Facebook metrics ([link](http://archive.ics.uci.edu/ml/datasets/Facebook+metrics)) from the UCI Machine Learning Repository. It has been created based on an undisclosed cosmetics brand Facebook page. See below the attributes of interest.
 
 |   Attribute name  |                  Possible values                 |
 |:-----------------:|:------------------------------------------------:|
