@@ -76,7 +76,7 @@ Unlike in optimizing the weights, with symbolic regression it is not trivial to 
 So how do we come up with this magical expression that achieves a low loss? Enter **genetic programming**.
 
 
-The difference between genetic programming (GP) and the more notorious genetic algorithms (GA) is that GP represents solutions as trees whereas GA as strings. The main reason for using tree representation is the abilibty to capture the inherent structure of the solution. This is very relevant in our application since each mathematical expression can be represented via a tree. See an example below 
+The difference between genetic programming (GP) and the more notorious genetic algorithms (GA) is that GP represents solutions as trees whereas GA as strings. The main reason for using tree representation is the ability to capture the inherent structure of the solution. This is very relevant in our application since each mathematical expression can be represented via a tree. See an example below 
 
 ![test]({{ "/assets/images/symbolic_regression/basic.png" | absolute_url }})
 
@@ -120,11 +120,11 @@ Clearly, this textual format is not optimal for visualization. See below a tree 
 
 ![test]({{ "/assets/images/symbolic_regression/tree.png" | absolute_url }})
 
-Ehm, so what exactly is this saying? How do I maximize the interactions? Well, it does not really matter. The output of symbolic regression  is hard to understand but come on, it is really cool!
+Ehm, so what exactly is this saying? How do I maximize the interactions? Well, it does not really matter. The output of symbolic regression is hard to understand but come on, it is really cool!
 
 If you want to see implementation details and comparison to standard regressors feel free to check the notebook [here](https://github.com/jankrepl/symbolic-regression-genetic-programming/blob/master/main.ipynb).
 # PS
-My first encounter with symbolic regression was when I browsed through public kernels on Kaggle ([example_1](https://www.kaggle.com/scirpus/genetic-programming-lb-0-0643904) and [example_2](https://www.kaggle.com/scirpus/genetic-programming-lb-0-88)). Expecting some elaborate code snippets, I could not help but laugh when I saw these monstrous formulas that managed to get a very decent score on the official leaderboard. 
+My first encounter with symbolic regression was when I browsed through public kernels on Kaggle ([example_1](https://www.kaggle.com/scirpus/genetic-programming-lb-0-0643904) and [example_2](https://www.kaggle.com/scirpus/genetic-programming-lb-0-88)). Expecting some elaborate code snippets, I could not help but laugh when I saw these monstrous formulas that managed to get a very decent score in the official leaderboard. 
 # References
 
 1. Koza, John R. "Genetic programming as a means for programming computers by natural selection." Statistics and computing 4, no. 2 (1994): 87-112
