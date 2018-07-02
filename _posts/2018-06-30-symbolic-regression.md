@@ -6,7 +6,7 @@ read_time: true
 comments: true
 share: null
 related: true
-excerpt: symbolic
+excerpt: (x + y)^2 = x^2 + 2xy + y^2
 classes: wide
 tags:
 - tutorial
@@ -15,7 +15,7 @@ header:
   teaser: "/assets/images/symbolic_regression/teaser_big.png"
 ---
 
-![test]({{ "/assets/images/symbolic_regression/teaser_big.png" | absolute_url }})
+![test]({{ "/assets/images/symbolic_regression/teaser.png" | absolute_url }})
 
 
 
