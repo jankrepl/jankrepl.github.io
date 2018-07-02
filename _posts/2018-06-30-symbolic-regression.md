@@ -12,7 +12,7 @@ tags:
 - tutorial
 - cool repo
 header:
-  teaser: "/assets/images/symbolic_regression/teaser_big.png"
+  teaser: "/assets/images/symbolic_regression/teaser.png"
 ---
 
 ![test]({{ "/assets/images/symbolic_regression/teaser.png" | absolute_url }})
