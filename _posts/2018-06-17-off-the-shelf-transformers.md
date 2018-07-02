@@ -14,6 +14,10 @@ tags:
 header:
   teaser: "/assets/images/feature_transformers/teaser.png"
 ---
+
+![]({{ "/assets/images/feature_transformers/teaser.png" | absolute_url }})
+
+
 Arguably, the features that enter a supervised learning model are more important than the model itself. With that being said, it is always very difficult to find how to engineer and preprocess features in order for the classifier/regressor to maximize its performance.
 
 There are multiple feature transformation techniques that constitute a standard part of every data scientist's toolkit. Things like encoding, imputing and scaling are essential. In some cases, it is clear that a certain transformation will improve the performance. A nice example is scaling numerical features before using any kind of gradient descent algorithms. However, in general, there is not a single best approach of how to preprocess and transform features in order to maximize the predictive potential. So what is the right approach? Well, one simply needs to try different techniques and see which one performs the best.
