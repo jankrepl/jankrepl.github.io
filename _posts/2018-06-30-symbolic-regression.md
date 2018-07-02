@@ -92,7 +92,7 @@ Crossover uses 2 solutions  with a high fitness score and tries to combine them.
 ![test]({{ "/assets/images/symbolic_regression/crossover.png" | absolute_url }})
 
 # gplearn
-Of course, you could code everything yourself but there are already open source package focusing on this topic. The best one I was able to find is called **gplearn**. It's biggest pro is the fact that it follows the scikit-learn API (`fit` and `transform`/`predict` methods).
+Of course, you could code everything yourself but there are already open source packages focusing on this topic. The best one I was able to find is called **gplearn**. It's biggest pro is the fact that it follows the scikit-learn API (`fit` and `transform`/`predict` methods).
 
 It implements two major algorithms: regression and transformation. With regression, the fitness function is simply a metric like mean squared error or mean absolute erorr. However, transformer creates new features out of the original ones by trying to maximize a fitness function equal to correlation (spearman and pearson).
 
