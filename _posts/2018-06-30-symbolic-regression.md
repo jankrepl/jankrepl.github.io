@@ -12,10 +12,10 @@ tags:
 - tutorial
 - cool repo
 header:
-  teaser: "/assets/images/symbolic_regression/teaser.png"
+  teaser: "/assets/images/symbolic_regression/teaser_new.png"
 ---
 
-![test]({{ "/assets/images/symbolic_regression/teaser.png" | absolute_url }})
+![test]({{ "/assets/images/symbolic_regression/teaser_new.png" | absolute_url }})
 
 
 
@@ -56,7 +56,7 @@ w^{(2)}_4
 $$
 {% endraw %}
 
-Final and the most tediuous step is to write everything out without any matrix and sum notation
+Final and the most tedious step is to write everything out without any matrix and sum notation
 {% raw %}
 $$
 \hat{y} = b +  w^{(2)}_{1} \sigma(w^{(1)}_{11}x_1 + w^{(1)}_{21}x_2 + w^{(1)}_{31}x_3 + b^{(1)}_{1} ) \\
@@ -66,7 +66,7 @@ $$
 $$
 {% endraw %}
 
-Even though this formulation is extremely impractical it clearly demonstrates one important thing: the prediction is just a result of applying basic mathematical operations on the input features. Specifically, these operations are addition, multiplication and compostion. In other words, we combine a bunch of **symbolical expressions representing mathematical operations** and hope to get the right prediction. 
+Even though this formulation is extremely impractical it clearly demonstrates one important thing: the prediction is just a result of applying basic mathematical operations on the input features. Specifically, these operations are addition, multiplication and composition. In other words, we combine a bunch of **symbolical expressions representing mathematical operations** and hope to get the right prediction. 
 
 Here is the twist though. With neural networks, one tries to find the optimal values of all the *w*'s and *b*'s  such that a certain loss function is minimized. However, another idea is to fix all the *w*'s and *b*'s and just alter the symbolic expression iteself! Or in other words, change the functional form of the approximator. That is exactly what **symbolic regression** is about. The altering can naturally have two forms. You can either add new symbolic expressions (mathematical operations) or remove some of the existing ones.
 
