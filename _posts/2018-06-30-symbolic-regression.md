@@ -80,7 +80,7 @@ The difference between genetic programming (GP) and the more notorious genetic a
 
 ![test]({{ "/assets/images/symbolic_regression/basic.png" | absolute_url }})
 
-Each tree can be assigned a fitness score based on regression metrics like mean squared error or mean absolute error. With GP one also needs to decide on how to perform  crossover and mutation. There are a couple of different ways how to do this but let us just describe the simple approach for both of them.
+Each tree can be assigned a fitness score based on regression metrics like mean squared error or mean absolute error. With GP one also needs to decide on how to perform  crossover and mutation. There are a couple of different ways how to do this but let us just describe one simple approach for both of them.
 
 With mutation, the simplest procedure is a so called point mutation. Random nodes of the tree are selected and changed. One needs to be careful about the node type since a node can represent different operations (unary, binary,...).
 
