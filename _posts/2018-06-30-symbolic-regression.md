@@ -124,7 +124,7 @@ Ehm, so what exactly is this saying? How do I maximize the interactions? Well, i
 
 If you want to see implementation details and comparison to standard regressors feel free to check the notebook [here](https://github.com/jankrepl/symbolic-regression-genetic-programming/blob/master/main.ipynb).
 # PS
-My first encounter with symbolic regression was when I browsed through public kernels on Kaggle ([example_1](https://www.kaggle.com/scirpus/genetic-programming-lb-0-0643904) and [example_2](https://www.kaggle.com/scirpus/genetic-programming-lb-0-88)). Expecting some elaborate code snippets, I could not help but laugh when I saw these monstrous formulas that managed to get a very decent score on the official leaderborad. 
+My first encounter with symbolic regression was when I browsed through public kernels on Kaggle ([example_1](https://www.kaggle.com/scirpus/genetic-programming-lb-0-0643904) and [example_2](https://www.kaggle.com/scirpus/genetic-programming-lb-0-88)). Expecting some elaborate code snippets, I could not help but laugh when I saw these monstrous formulas that managed to get a very decent score on the official leaderboard. 
 # References
 
 1. Koza, John R. "Genetic programming as a means for programming computers by natural selection." Statistics and computing 4, no. 2 (1994): 87-112
