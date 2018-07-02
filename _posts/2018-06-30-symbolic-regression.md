@@ -94,7 +94,7 @@ Crossover uses 2 solutions  with a high fitness score and tries to combine them.
 # gplearn
 Of course, you could code everything yourself but there are already open source package focusing on this topic. The best one I was able to find is called **gplearn**. It's biggest pro is the fact that it follows the scikit-learn API (`fit` and `transform`/`predict` methods).
 
-It implements two major algorithms: regression and transformation. With regression, the fitness function are simply metrics like mean squared error and mean absolute erorr. However, transformer creates new features out of the original ones by trying to maximize a fitness function equal to correlation (spearman and pearson).
+It implements two major algorithms: regression and transformation. With regression, the fitness function is simply a metric like mean squared error or mean absolute erorr. However, transformer creates new features out of the original ones by trying to maximize a fitness function equal to correlation (spearman and pearson).
 
 Once fitted, one can inspect the best solution via the attribute `_program`. Note that there are multiple hyperparameters that enable customization of all major parts of the evolution. I encourage you to read the official documentation and get familiar with some of them especially if you want to prevent things like overfitting from happening or if you simply look for speedups.
 
