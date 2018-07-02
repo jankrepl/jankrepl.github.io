@@ -17,7 +17,7 @@ header:
 
 ![test]({{ "/assets/images/symbolic_regression/teaser_new.png" | absolute_url }})
 
-
+Symbolic regression and genetic programming are nowhere close to being mainstream machine learning techniques. However, they definitely deserve a considerable amount of attention. This post serves as a gentle and informal introduction.
 
 # Motivation
 Imagine someone asked you to write down the forward pass of a single output neural network without using matrix or sum notation. Huh? To make things simple you would probably think of the most vanilla neural network: Multilayer perceptron with one hidden layer. So in matrix notation, it looks something like
