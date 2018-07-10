@@ -20,7 +20,7 @@ header:
 
 
 # Introduction
-Markov Chain Monte Carlo (MCMC) sampling is a widely popular technique in Bayesian statistics. Namely, it is used for posteriori distribution sampling since the analytical form is very often untrackable. In this post, however, we are going to use it to generate animations from static images/logos. Incidentally, it might serve as an introduction to MCMC and rejection sampling. The idea is based on a great open source package **imcmc** ([link](https://github.com/ColCarroll/imcmc)) that is built upon **PyMC3** ([link](https://github.com/pymc-devs/pymc3)).
+Markov Chain Monte Carlo (MCMC) is a widely popular technique in Bayesian statistics. Namely, it is used for posteriori distribution sampling since the analytical form is very often untrackable. In this post, however, we are going to use it to generate animations from static images/logos. Incidentally, it might serve as an introduction to MCMC and rejection sampling. The idea is based on a great open source package **imcmc** ([link](https://github.com/ColCarroll/imcmc)) that is built upon **PyMC3** ([link](https://github.com/pymc-devs/pymc3)).
 
 
 # Preliminaries
@@ -122,7 +122,7 @@ Choosing a symmetric proposal $\textbf{x}' \sim q(.|\textbf{x})=N(\textbf{x}, \S
 
 # Animations
 
-Let's finally look at some results, shall we? The MCMC sampling + visualization (creating gifs) was performed using the great package imcmc that builds upon pymc3. It uses the Metroplolis algorithm with a default proposal. The most important hyperparameters
+Let's finally look at some results, shall we? For each logo, rejection and Metropolis-Hastings sampling The MCMC sampling + visualization (creating gifs) was performed using the great package imcmc that builds upon pymc3. It uses the Metroplolis algorithm with a default proposal. The most important hyperparameters
 
 * burn-in: 500
 * samples: 10000
