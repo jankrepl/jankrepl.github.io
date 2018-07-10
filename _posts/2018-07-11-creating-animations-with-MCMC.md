@@ -42,7 +42,7 @@ While the 2nd property is always in the eye of the beholder, the 1st one can be 
 
 # Sampling schemes
 ### Rejection sampling
-The first method falls into the class of IID (**independent** and identically distributed) sampling methods. This esentially means that current sample will have no effect on what the next sample is going to be. The algorithm assumes we are able to sample from a so called proposal distribution. Many different proposal distributions can be used but the most common ones are the Uniform (finite support) and the Normal (infinite support) distribution.
+The first method falls into the class of IID (**independent** and identically distributed) sampling methods. This essentially means that current sample will have no effect on what the next sample is going to be. The algorithm assumes we are able to sample from a so called proposal distribution. Many different proposal distributions can be used but the most common ones are the Uniform (finite support) and the Normal (infinite support) distribution.
 
 <br>
 <center><img src="/assets/images/MCMC_animation/rs_algo.png" alt="rejection" width="500" height="600"></center>
@@ -80,7 +80,7 @@ In lower dimensions, Rejection sampling performs really well. However, with incr
 
 
 ### Gibbs sampling
-Gibbs sampling falls into the second category of samplers that generate samples via construction of a Markov chain. As a result, these samples are **not independent**. In fact, they are not even identically distributed until the chain reaches its stationary distribution. For that reason, it is a common practise to discard the first x samples to make sure that the chain "forgot" the initialization (burn-in).
+Gibbs sampling falls into the second category of samplers that generate samples via construction of a Markov chain. As a result, these samples are **not independent**. In fact, they are not even identically distributed until the chain reaches its stationary distribution. For that reason, it is a common practice to discard the first x samples to make sure that the chain "forgot" the initialization (burn-in).
 
 <br>
 <center><img src="/assets/images/MCMC_animation/gibbs_algo.png" alt="gibbs" width="500" height="600"></center>
@@ -119,7 +119,7 @@ Similarly to Gibbs, Metropolis-Hastings sampling also creates a Markov chain. Ho
 <center><img src="/assets/images/MCMC_animation/metropolis_algo.png" alt="metropolis" width="500" height="600"></center>
 <br>
 
-The intuition is the following. Given a current sample, the proposal distribution gives us a suggestion for a new sample. We then assess its eligibility by inspecting how much more (less) likely it is than the current sample and also take into account possible bias the proposal distribution might have towards this sample. Everything combined, we compute the probability $r$ of accepting the new sample and then we let the randomness make the decision.
+The intuition is the following. Given the current sample, the proposal distribution gives us a suggestion for a new sample. We then assess its eligibility by inspecting how much more (less) likely it is than the current sample and also take into account possible bias the proposal distribution might have towards this sample. Everything combined, we compute the probability $r$ of accepting the new sample and then we let the randomness make the decision.
 
 It goes without saying that the role of the proposal distribution is crucial and will affect the performance and convergence. One of the more common choices is to use the Normal centered at the current state.
 
@@ -134,19 +134,19 @@ Let's finally look at some results. For each logo, Rejection and Metropolis-Hast
 
 ![medium_mc]({{ "/assets/images/MCMC_animation/organization.png" | absolute_url }})
 
-![medium_mc]({{ "/assets/images/MCMC_animation/medium_final.gif" | absolute_url }})
+![medium_mc]({{ "/assets/images/MCMC_animation/medium_final_s.gif" | absolute_url }})
 
-![medium_mc]({{ "/assets/images/MCMC_animation/tm_final.gif" | absolute_url }})
+![medium_mc]({{ "/assets/images/MCMC_animation/tm_final_s.gif" | absolute_url }})
 
-![medium_mc]({{ "/assets/images/MCMC_animation/cisco_final.gif" | absolute_url }})
+![medium_mc]({{ "/assets/images/MCMC_animation/cisco_final_s.gif" | absolute_url }})
 
-![medium_mc]({{ "/assets/images/MCMC_animation/git_final.gif" | absolute_url }})
+![medium_mc]({{ "/assets/images/MCMC_animation/git_final_s.gif" | absolute_url }})
 
-![medium_mc]({{ "/assets/images/MCMC_animation/opencv_final.gif" | absolute_url }})
+![medium_mc]({{ "/assets/images/MCMC_animation/opencv_final_s.gif" | absolute_url }})
 
-![medium_mc]({{ "/assets/images/MCMC_animation/scipy_final.gif" | absolute_url }})
+![medium_mc]({{ "/assets/images/MCMC_animation/scipy_final_s.gif" | absolute_url }})
 
-![medium_mc]({{ "/assets/images/MCMC_animation/custom_final.gif" | absolute_url }})
+![medium_mc]({{ "/assets/images/MCMC_animation/custom_final_s.gif" | absolute_url }})
 
 ### Remarks
 
