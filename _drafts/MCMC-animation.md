@@ -130,19 +130,19 @@ Let's finally look at some results, shall we? For each logo, rejection and Metro
 
 ![medium_mc]({{ "/assets/images/MCMC_animation/organization.png" | absolute_url }})
 
-![medium_mc]({{ "/assets/images/MCMC_animation/medium_final.gif" | absolute_url }})
+![medium_mc]({{ "/assets/images/MCMC_animation/medium_final_s.gif" | absolute_url }})
 
-![medium_mc]({{ "/assets/images/MCMC_animation/tm_final.gif" | absolute_url }})
+![medium_mc]({{ "/assets/images/MCMC_animation/tm_final_s.gif" | absolute_url }})
 
-![medium_mc]({{ "/assets/images/MCMC_animation/cisco_final.gif" | absolute_url }})
+![medium_mc]({{ "/assets/images/MCMC_animation/cisco_final_s.gif" | absolute_url }})
 
-![medium_mc]({{ "/assets/images/MCMC_animation/git_final.gif" | absolute_url }})
+![medium_mc]({{ "/assets/images/MCMC_animation/git_final_s.gif" | absolute_url }})
 
-![medium_mc]({{ "/assets/images/MCMC_animation/opencv_final.gif" | absolute_url }})
+![medium_mc]({{ "/assets/images/MCMC_animation/opencv_final_s.gif" | absolute_url }})
 
-![medium_mc]({{ "/assets/images/MCMC_animation/scipy_final.gif" | absolute_url }})
+![medium_mc]({{ "/assets/images/MCMC_animation/scipy_final_s.gif" | absolute_url }})
 
-![medium_mc]({{ "/assets/images/MCMC_animation/custom_final.gif" | absolute_url }})
+![medium_mc]({{ "/assets/images/MCMC_animation/custom_final_s.gif" | absolute_url }})
 
 ### Comments
 
