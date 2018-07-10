@@ -21,7 +21,7 @@ header:
 
 
 # Introduction
-Markov Chain Monte Carlo (MCMC) sampling is a widely popular technique in Bayesian statistics. It is used for posteriori distribution sampling since the analytical form is very often non-trackable. In this post, however, we are going to use it to generate animations from static images/logos. Incidentally, it might serve as an introduction to MCMC and Rejection sampling. The idea is based on a great open source package **imcmc** ([link](https://github.com/ColCarroll/imcmc)) that is built upon **PyMC3** ([link](https://github.com/pymc-devs/pymc3)).
+Markov Chain Monte Carlo (MCMC) is a widely popular technique in Bayesian statistics. It is used for posteriori distribution sampling since the analytical form is very often non-trackable. In this post, however, we are going to use it to generate animations from static images/logos. Incidentally, it might serve as an introduction to MCMC and Rejection sampling. The idea is based on a great open source package **imcmc** ([link](https://github.com/ColCarroll/imcmc)) that is built upon **PyMC3** ([link](https://github.com/pymc-devs/pymc3)).
 
 
 # Preliminaries
