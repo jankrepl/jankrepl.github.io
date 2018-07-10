@@ -19,6 +19,7 @@ url                      : https://mmistakes.github.io # the base hostname & pro
 baseurl                  : "/minimal-mistakes" # the subpath of your site, e.g. "/blog"
 repository               : "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
