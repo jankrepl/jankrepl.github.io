@@ -6,7 +6,7 @@ read_time: true
 comments: true
 share: null
 related: true
-excerpt: Sample the sample
+excerpt: Sample the samples of sampling
 classes: wide
 tags:
 - MCMC
@@ -150,7 +150,7 @@ Let's finally look at some results. For each logo, Rejection and Metropolis-Hast
 
 ### Remarks
 
-For multimodal distributions Metropolis-Hastings might get stuck in certain regions. This is a very common problem and can be tackled by changing of the proposal or sampling more/longer chains. Naturally, we can also venture into the wild and use some other samplers.
+For multimodal distributions Metropolis-Hastings might get stuck in certain regions. This is a very common problem and can be tackled by changing the proposal or sampling more/longer chains. Naturally, we can also venture into the wild and use some other samplers.
 
 
 If you want to dig deeper and see the source code check this [**notebook**](https://github.com/jankrepl/creating-animations-with-MCMC/blob/master/main.ipynb). 
