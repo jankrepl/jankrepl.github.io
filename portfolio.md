@@ -42,6 +42,13 @@ author_profile: true
 	</a>
 </ul>
 
+<ul>
+	<a href="https://www.upwork.com/o/profiles/users/_~012da3f14fa3fe2026/">
+	  <i class="far fa-circle"></i> Upwork (visible to users only)
+	</a>
+</ul>
+
+
 
 
 
